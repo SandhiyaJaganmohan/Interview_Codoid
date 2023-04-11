@@ -1,0 +1,18 @@
+public class Swapping_Without_3rd_Variable {
+	
+public static void main(String[] args) {
+	
+	int a, b;
+	System.out.println("The numbers are");
+	a = 10;
+	b = 20;  
+	System.out.println("a= "+a + "   b= "+b);
+
+	a = a + b;
+	b = a - b;
+	a = a - b;
+	System.out.println("Swapping numbers are");
+	System.out.println("a= "+a);
+	System.out.println("b= "+b);
+}
+}
